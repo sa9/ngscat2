@@ -82,6 +82,7 @@ Here an example of input data can he downloaded.
 * Region of interest file BED ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/technical/reference/exome_pull_down_targets/20130108.exome.targets.bed
 * Reference genome (for --reference option) http://ngscat.clinbioinfosspa.es/_media/ngscat/download/hg19.wochr.tar.gz
 * Annotated bed (for --annotation option)  https://mega.nz/#!f2oRxI7Z!QUSRErtvwNGs2tfpwRWjiPZQkOEhRQhaWtXhkmXXpEM
-#Output example
 
+
+#Output example
 Exome example https://mega.nz/#!eywTGCBL!6HTDl7J9eLY4VhX2aFfe57Cp9mvwLw4JTcDcHr-zu1A
