@@ -62,11 +62,11 @@ def parse_arguments():
        	usage: %prog --bams <filename> --bed <filename> --out <path> --annotation <filename> --reference <filename>  --tmp <path> --threads <integer>"""
 
     parser = optparse.OptionParser(usage)
-    parser.add_option("--bams", dest="bams",
+    parser.add_option("--bams /DATA/workspace/ccg/data_carmen/cutadapt_q30_m65/S653_UKKD19070049-AK366-AK417_HGWJMDSXX.sorted.bam", dest="bams",
                       help="""Required. Comma separated list of bam files (2 maximum). E.g.: --bams /home/user/bam1.sorted.bam,/home/user/bam2.sorted.bam""")
-    parser.add_option("--bed", dest="bed",
+    parser.add_option("--bed /DATA/workspace/ccg/coverage_analysis/Exome_Exomev1_Probes.hg19.manifest.bed", dest="bed",
                       help="""Required. Full path to the bed file containing the target regions.""")
-    parser.add_option("--out", dest="outdir", help="""Required. Full path to the directory where results will be saved.""")
+    parser.add_option("--out /DATA/workspace/ccg/ngscat2", dest="outdir", help="""Required. Full path to the directory where results will be saved.""")
     # parser.add_option("--extendtarget", dest="extend",
     #                   help="""Optional. Integer indicating the number of bases to extend each target region up and down-stream. Default=None.""",
     #                   default=None)
