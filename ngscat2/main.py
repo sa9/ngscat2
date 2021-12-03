@@ -250,7 +250,7 @@ def generate_report(options, config):
 
     # Bamfile object generation, if not sorted do it and (sequentally made, maybe no improvement due I/O limitations)
     # Sorted and .bai Checking
-    bamlist = [/DATA/workspace/ccg/data_carmen/cutadapt_q30_m65/S653_UKKD19070049-AK366-AK417_HGWJMDSXX.sorted.bam]
+    bamlist = []
     for bamdir in options.bams.split(','):
         bam = bam_file(bamdir)
         if not bam.issorted():
