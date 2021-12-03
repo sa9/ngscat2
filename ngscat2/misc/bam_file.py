@@ -14,7 +14,7 @@ except ImportError:
     print('WARNING: module numpy was not loaded.')
 
 
-sys.path.append('/DATA/workspace/ccg/ngscat2')
+sys.path.append('/home/agarcia/PycharmProjects/ngscat2')
 
 from ngscat2.misc import bed_file, coverage_file
 
