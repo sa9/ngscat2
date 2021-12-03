@@ -515,7 +515,7 @@ class bam_file(pysam.Samfile):
                     endPositions = []  # Structure that stores end positions of each read
                     for currentRead in allReads:
                         initPositions.append(int(currentRead.pos) + 1)#Fetch is 0-base indexing,working on 1-base indexing
-                        endPositions.append(int(currentRead.aend))
+                        endPositions.append(int(currentRead.end))
 
                     # Select a given number of reads according to numReadsDesired
                     if (numberReads is None):
