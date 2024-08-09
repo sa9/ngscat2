@@ -54,7 +54,7 @@ from ngscat2.modules.report.txt.off_bed.report import Report as OffBed
 
 
 def parse_arguments():
-    usage = %prog --bams /DATA/workspace/ccg/data_carmen/cutadapt_q30_m65/S653_UKKD19070049-AK366-AK417_HGWJMDSXX.sorted.bam --bed /DATA/workspace/ccg/coverage_analysis/Exome_Exomev1_Probes.hg19.manifest.bed --out /DATA/workspace/ccg/ngscat2"""	
+    usage = """%prog --bams /DATA/workspace/ccg/data_carmen/cutadapt_q30_m65/S653_UKKD19070049-AK366-AK417_HGWJMDSXX.sorted.bam --bed /DATA/workspace/ccg/coverage_analysis/Exome_Exomev1_Probes.hg19.manifest.bed --out /DATA/workspace/ccg/ngscat2
        	****************************************************************************************************************
        	Task: Assesses capture performance in terms of sensibility, specificity and uniformity of the coverage.
        	Output: An html report will be created at the path indicated with the --out option.
