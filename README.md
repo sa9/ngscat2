@@ -1,6 +1,13 @@
 ngsCAT2: a tool to assess the efficiency of targeted enrichment sequencing
 =======================================
 
+# Fork Update
+Changed libraries version (some 6 years old) to work on Mac M3 chips (Aug 2024).
+
+It also required to install hdf5 as prerquist to tables
+
+`brew install hdf5`
+
 
 # Requirements
 This instructions are for debian based linux distributions such as: Ubuntu, Linux mint, Lubuntu...  
@@ -35,7 +42,7 @@ Bedops webpage https://bedops.readthedocs.io/en/latest/content/revision-history.
 For the installation of the tool just only run:
 
 ```
-pip3 install git+https://github.com/alegarsan2/ngsCAT2@master
+pip3 install git+https://github.com/sa9/ngsCAT2@master
 ```
 # Usage instruction
 
