@@ -1,28 +1,23 @@
 from setuptools import setup, find_packages
 
-
-# def readme():
-#     with open('README.rst') as f:
-#         return f.read()
-
-
-setup(name='ngsCAT2',
-      version='0.1',
-      description='Next-Generation Sequencing Capture Assessment Tool 2',
-      long_description='',
-      classifiers=[
+setup(
+    name='ngsCAT2',
+    version='0.1',
+    description='Next-Generation Sequencing Capture Assessment Tool 2',
+    long_description='',
+    classifiers=[
         'Development Status :: 1 - Alpha',
         'License :: OSI Approved :: MIT License',
         'Programming Language :: Python :: 3.9.7',
         'Topic :: Enrichment analysis',
-      ],
-      keywords='targeted sequencing  analysis ',
-      url='https://github.com/alegarsan2/ngscat2',
-      author='Alejandro García Sánchez',
-      author_email='alegarsan2@gmail.com',
-      license='MIT',
-      packages=find_packages(),
-      install_requires=[
+    ],
+    keywords='targeted sequencing analysis',
+    url='https://github.com/alegarsan2/ngscat2',
+    author='Alejandro García Sánchez',
+    author_email='alegarsan2@gmail.com',
+    license='MIT',
+    packages=find_packages(),
+    install_requires=[
         "certifi==2023.5.7",
         "chardet==4.0.0",
         "decorator==5.1.1",
@@ -48,11 +43,9 @@ setup(name='ngsCAT2',
         "urllib3==2.0.6",
         "xlwt==1.3.0",
     ],
-      ],
-      #test_suite='',
-      #tests_require=['nose', 'nose-cover3'],
-      entry_points={
-          'console_scripts': ['ngscat2=ngscat2.main:main'],
-      },
-      include_package_data=True,
-      zip_safe=False)
+    entry_points={
+        'console_scripts': ['ngscat2=ngscat2.main:main'],
+    },
+    include_package_data=True,
+    zip_safe=False
+)

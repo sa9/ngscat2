@@ -42,7 +42,7 @@ Bedops webpage https://bedops.readthedocs.io/en/latest/content/revision-history.
 For the installation of the tool just only run:
 
 ```
-pip3 install git+https://github.com/sa9/ngsCAT2@master
+pip install git+https://github.com/sa9/ngsCAT2@master
 ```
 # Usage instruction
 
